@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/white"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/thumbnailImageView"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/dr_no_thumbnail" />
+
+        <TextView
+            android:id="@+id/thumbnailMovieName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/thumbnailImageView"
+            android:text="Movie Title Goes Here!" />
+
+        <TextView
+            android:id="@+id/thumbnailMovieYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thumbnailMovieName"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/thumbnailImageView"
+            android:text="Year: 1962" />
+    </RelativeLayout>
+
+</LinearLayout>
