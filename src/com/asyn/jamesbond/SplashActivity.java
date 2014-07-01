@@ -10,7 +10,7 @@ import android.os.Handler;
 public class SplashActivity extends Activity {
 
 	public static final int SPLASH_LENGTH = 1 * 1000;
-	public static final int INTRO_MEDIA = R.raw.splash_intro_loud;
+	public static final int INTRO_MEDIA = R.raw.splash_intro;
 
 	protected RawPlayer mediaPlayer;
 
