@@ -73,17 +73,46 @@
     </string-array>
 
     <string name="title_activity_bond">Bonds</string>
-
     <string name="bond_photo_description">Actor who prortrayed bond photo</string>
-
     <string name="main_banner_description">Main Banner</string>
-
     <string name="grid_view_photo_description">Grid View Photo</string>
-
     <string name="list_view_photo_description">List View Photo</string>
-
     <string name="splash_logo_description">Splash Logo</string>
-
     <string name="splash_animation_description">Splash Animation</string>
+
+    <string-array name="bonds_details">
+        <item>Sir Thomas Sean Connery Kt. (born 25 August 1930) is a Scottish actor 
+            and producer who has won an Academy Award, two BAFTA Awards (one of them being a 
+            BAFTA Academy Fellowship Award) and three Golden Globes (including the Cecil B. 
+            DeMille Award and a Henrietta Award). He was knighted by Elizabeth II in July 2000, 
+            and received the Kennedy Center Honors in the US.</item>
+        <item>Sir Roger George Moore, KBE (born 14 October 1927) is an English actor. 
+                He is perhaps best known for playing British secret agent James Bond in the official 
+                film series for seven films between 1973 and 1985. He appeared as Bond in more official 
+                Bond films than any other actor, and is the oldest actor to play Bond. Moore also portrayed 
+                Simon Templar in The Saint from 1962 to 1969. He is also a Goodwill Ambassador for the charity 
+                organisation UNICEF.</item>
+        <item>George Robert Lazenby (born 5 September 1939) is an Australian actor and former model, 
+            best known for portraying James Bond in the 1969 film On Her Majesty\'s Secret Service. 
+            He remains the only actor to have played the role in only one Eon Productions film. He went 
+            on to a career in films and television, including several roles spoofing the James Bond character.
+             His name has become a metaphor for actors of lesser standing who have given non-iconic performances
+              in major media franchises.</item>
+        <item>Timothy Peter Dalton (born 21 March 1944 or 1946) is a British actor of film and television.
+             Dalton is known for portraying James Bond in The Living Daylights (1987) and Licence to Kill 
+             (1989), as well as Rhett Butler in the television miniseries Scarlett (1994), an original sequel
+              to Gone with the Wind.</item>
+        <item>Pierce Brendan Brosnan (born 16 May 1953) is an Irish actor,
+         film producer and environmentalist. After leaving comprehensive school at 16,
+          Brosnan began training in commercial illustration. He then went on to train at the Drama
+           Centre in London for three years. Following a stage acting career he rose to popularity in 
+           the television series Remington Steele (1982–87).</item>
+        <item>Daniel Wroughton Craig (born 2 March 1968) is an English actor.
+             He has played British secret agent James Bond since 2006.
+              Craig is an alumnus of the National Youth Theatre and graduated from the 
+              Guildhall School of Music and Drama in London, beginning his career on stage.
+               His early on-screen appearances were in the films Elizabeth, The Power of One and 
+               A Kid in King Arthur\'s Court, and in Sharpe\'s Eagle and Zorro on television.</item>
+    </string-array>
 
 </resources>

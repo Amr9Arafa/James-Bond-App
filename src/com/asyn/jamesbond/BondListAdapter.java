@@ -14,10 +14,12 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 
 	protected Context mContext;
 	protected String[] mBondsNames;
+	protected String[] mBondsDetails;
 
-	public BondListAdapter(Context context, String[] names) {
+	public BondListAdapter(Context context, String[] names, String[] details) {
 		mContext = context;
 		mBondsNames = names;
+		mBondsDetails = details;
 	}
 
 	@Override
@@ -72,7 +74,7 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 
 	@Override
 	public Object getChild(int groupPosition, int childPosition) {
-		return mBondsNames[groupPosition];
+		return mBondsDetails[groupPosition];
 	}
 
 	@Override
