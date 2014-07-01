@@ -34,15 +34,18 @@
         </activity>
         <activity
             android:name=".QuotesActivity"
-            android:label="@string/title_activity_quotes" >
+            android:label="@string/title_activity_quotes"
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".GunbarrellActivity"
-            android:label="@string/title_activity_gunbarrell" >
+            android:label="@string/title_activity_gunbarrell"
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".BondActivity"
-            android:label="@string/title_activity_bond" >
+            android:label="@string/title_activity_bond" 
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 

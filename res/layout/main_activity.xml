@@ -14,8 +14,10 @@
             android:id="@+id/bannerImageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/main_banner_description"
             android:scaleType="fitCenter"
             android:src="@drawable/all_bonds" />
+
     </LinearLayout>
 
     <Button

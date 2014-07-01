@@ -11,6 +11,7 @@
     <string name="bonds_button_label">Bonds</string>
     <string name="movie_posters_button_label">Posters</string>
     <string name="quotes_button_label">Quotes</string>
+    <string name="grid_list_menu_title">Grid</string>
 
     <string-array name="list_movies_name">
         <item>Dr. No</item>
@@ -72,5 +73,17 @@
     </string-array>
 
     <string name="title_activity_bond">Bonds</string>
+
+    <string name="bond_photo_description">Actor who prortrayed bond photo</string>
+
+    <string name="main_banner_description">Main Banner</string>
+
+    <string name="grid_view_photo_description">Grid View Photo</string>
+
+    <string name="list_view_photo_description">List View Photo</string>
+
+    <string name="splash_logo_description">Splash Logo</string>
+
+    <string name="splash_animation_description">Splash Animation</string>
 
 </resources>

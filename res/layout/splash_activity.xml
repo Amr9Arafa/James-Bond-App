@@ -4,13 +4,22 @@
     android:layout_height="match_parent"
     android:background="@android:color/white" >
 
+    <ImageButton
+        android:id="@+id/animationImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/splash_animation_description"
+        android:visibility="invisible" />
+
     <ImageView
         android:id="@+id/logoImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
-        android:src="@drawable/james_bond_logo" 
-        android:contentDescription="Splash Logo"/>
+        android:contentDescription="@string/splash_logo_description"
+        android:src="@drawable/james_bond_logo" />
 
 </RelativeLayout>

@@ -5,7 +5,7 @@
         android:id="@+id/menuItemListGrid"
         android:icon="@drawable/ic_action_view_as_grid"
         android:showAsAction="always"
-        android:title="Grid"
+        android:title="@string/grid_list_menu_title"
         android:visible="true"/>
 
 </menu>

@@ -18,6 +18,7 @@
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_centerHorizontal="true"
+            android:contentDescription="@string/grid_view_photo_description"
             android:src="@drawable/dr_no" />
 
         <TextView
@@ -25,15 +26,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/thumbnailImageView"
-            android:maxLines="1"
-            android:text="Movie Title Goes Here!" />
+            android:maxLines="1" />
 
         <TextView
             android:id="@+id/thumbnailMovieYear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/thumbnailMovieName"
-            android:text="Year: 1962" />
+            android:layout_below="@id/thumbnailMovieName" />
     </RelativeLayout>
 
 </LinearLayout>

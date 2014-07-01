@@ -2,8 +2,6 @@ package com.asyn.jamesbond;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 
 public class BondActivity extends Activity {
