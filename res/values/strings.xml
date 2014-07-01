@@ -7,6 +7,10 @@
     <string name="title_activity_select_movie">Select Movie</string>
     <string name="title_activity_quotes">Quotes</string>
     <string name="title_activity_gunbarrell">Gunbarrells</string>
+    <string name="gun_barrels_button_label">Gun Barrels</string>
+    <string name="bonds_button_label">Bonds</string>
+    <string name="movie_posters_button_label">Posters</string>
+    <string name="quotes_button_label">Quotes</string>
 
     <string-array name="list_movies_name">
         <item>Dr. No</item>
@@ -33,7 +37,6 @@
         <item>Quantum of Solace</item>
         <item>Skyfall</item>
     </string-array>
-    
     <string-array name="list_movies_years">
         <item>1962</item>
         <item>1963</item>
@@ -59,5 +62,15 @@
         <item>2008</item>
         <item>2012</item>
     </string-array>
+    <string-array name="list_of_bond_actors">
+        <item>Sean Connery</item>
+        <item>George Lazenby</item>
+        <item>Roger Moore</item>
+        <item>Timothy Dalton</item>
+        <item>Pierce Brosnan</item>
+        <item>Daniel Craig</item>
+    </string-array>
+
+    <string name="title_activity_bond">Bonds</string>
 
 </resources>

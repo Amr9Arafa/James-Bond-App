@@ -3,19 +3,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <Button
-        android:id="@+id/quotes"
+    <LinearLayout
+        android:id="@+id/imageViewContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Quotes" />
+        android:layout_marginBottom="45dp"
+        android:background="@android:color/black" >
+
+        <ImageView
+            android:id="@+id/bannerImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/all_bonds" />
+    </LinearLayout>
 
     <Button
-        android:id="@+id/gunbarrel"
+        android:id="@+id/gunbarrelButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewContainer"
         android:gravity="center_horizontal"
-        android:text="Gunbarell"
-        android:layout_below="@id/quotes" />
+        android:text="@string/gun_barrels_button_label" />
+
+    <Button
+        android:id="@+id/quotesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gunbarrelButton"
+        android:gravity="center_horizontal"
+        android:text="@string/quotes_button_label" />
+
+    <Button
+        android:id="@+id/postersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quotesButton"
+        android:gravity="center_horizontal"
+        android:text="@string/movie_posters_button_label" />
+
+    <Button
+        android:id="@+id/bondsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/postersButton"
+        android:gravity="center_horizontal"
+        android:text="@string/bonds_button_label" />
 
 </RelativeLayout>

@@ -40,6 +40,10 @@
             android:name=".GunbarrellActivity"
             android:label="@string/title_activity_gunbarrell" >
         </activity>
+        <activity
+            android:name=".BondActivity"
+            android:label="@string/title_activity_bond" >
+        </activity>
     </application>
 
 </manifest>
