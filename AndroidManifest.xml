@@ -29,7 +29,8 @@
         </activity>
         <activity
             android:name=".SelectMovieActivity"
-            android:label="@string/title_activity_select_movie" >
+            android:label="@string/title_activity_select_movie"
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".QuotesActivity"

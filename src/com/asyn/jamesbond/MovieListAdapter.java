@@ -17,12 +17,14 @@ public class MovieListAdapter extends ArrayAdapter<String> {
 	protected Context mContext;
 	protected String[] mMovieNames;
 	protected String[] mMovieYears;
+	protected int mLayout;
 
-	public MovieListAdapter(Context context, String[] movies, String[] years) {
-		super(context, R.layout.movie_list_layout, movies);
+	public MovieListAdapter(Context context, int layout, String[] movies, String[] years) {
+		super(context, layout, movies);
 		mContext = context;
 		mMovieNames = movies;
 		mMovieYears = years;
+		mLayout = layout;
 	}
 
 	@Override
@@ -31,7 +33,7 @@ public class MovieListAdapter extends ArrayAdapter<String> {
 
 		if (convertView == null) {
 			convertView = LayoutInflater.from(mContext).inflate(
-					R.layout.movie_list_layout, null);
+					mLayout, null);
 			holder = new ViewHolder();
 			holder.thumbnailImageView = (ImageView) convertView
 					.findViewById(R.id.thumbnailImageView);
