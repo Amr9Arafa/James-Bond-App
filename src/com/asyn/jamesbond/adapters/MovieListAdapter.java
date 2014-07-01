@@ -1,6 +1,4 @@
-package com.asyn.jamesbond;
-
-import com.asyn.jamesbond.statics.Thumbnails;
+package com.asyn.jamesbond.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.asyn.jamesbond.R;
+import com.asyn.jamesbond.statics.Thumbnails;
 
 public class MovieListAdapter extends ArrayAdapter<String> {
 	

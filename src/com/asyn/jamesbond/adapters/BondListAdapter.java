@@ -1,6 +1,4 @@
-package com.asyn.jamesbond;
-
-import com.asyn.jamesbond.statics.Actors;
+package com.asyn.jamesbond.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.asyn.jamesbond.R;
+import com.asyn.jamesbond.statics.Actors;
 
 public class BondListAdapter extends BaseExpandableListAdapter {
 	
@@ -106,7 +107,7 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 
 	@Override
 	public boolean isChildSelectable(int groupPosition, int childPosition) {
-		return true;
+		return false;
 	}
 
 	private static class ItemHolder {

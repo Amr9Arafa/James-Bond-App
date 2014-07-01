@@ -11,6 +11,7 @@ public class ActorProfile {
 	private int mTotalMovies;
 	private String birthdate;
 	private List<MovieInfo> mMovies;
+	private String mBrief;
 
 	public ActorProfile(String name, int photo) {
 		mActorName = name;
@@ -48,5 +49,12 @@ public class ActorProfile {
 	public String getBirthdate() {
 		return birthdate;
 	}
-
+	
+	public void addBrief(String brief) {
+		mBrief = brief;
+	}
+	
+	public String getBrief() {
+		return mBrief;
+	}
 }

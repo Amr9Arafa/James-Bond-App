@@ -12,6 +12,7 @@ import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.asyn.jamesbond.adapters.MovieListAdapter;
 import com.asyn.jamesbond.statics.Keys;
 
 public class SelectMovieActivity extends Activity {
