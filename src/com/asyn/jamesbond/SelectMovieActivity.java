@@ -1,14 +1,13 @@
 package com.asyn.jamesbond;
 
-import com.asyn.jamesbond.statics.Keys;
-
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.asyn.jamesbond.statics.Keys;
 
 public class SelectMovieActivity extends ListActivity {
 
