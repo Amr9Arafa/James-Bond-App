@@ -1,5 +1,7 @@
 package com.asyn.jamesbond;
 
+import com.asyn.jamesbond.statics.Keys;
+
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,8 +21,7 @@ public class SelectMovieActivity extends ListActivity {
 
 		MovieListAdapter adapter = new MovieListAdapter(this, getResources()
 				.getStringArray(R.array.list_movies_name), getResources()
-				.getStringArray(R.array.list_movies_years),
-				R.drawable.dr_no_thumbnail);
+				.getStringArray(R.array.list_movies_years));
 		setListAdapter(adapter);
 	}
 

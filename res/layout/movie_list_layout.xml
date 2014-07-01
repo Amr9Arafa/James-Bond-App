@@ -17,8 +17,7 @@
             android:id="@+id/thumbnailImageView"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_alignParentLeft="true"
-            android:src="@drawable/dr_no_thumbnail" />
+            android:layout_alignParentLeft="true"/>
 
         <TextView
             android:id="@+id/thumbnailMovieName"

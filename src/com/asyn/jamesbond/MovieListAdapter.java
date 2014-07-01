@@ -1,5 +1,7 @@
 package com.asyn.jamesbond;
 
+import com.asyn.jamesbond.statics.Thumbnails;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,14 +17,12 @@ public class MovieListAdapter extends ArrayAdapter<String> {
 	protected Context mContext;
 	protected String[] mMovieNames;
 	protected String[] mMovieYears;
-	protected int image;
 
-	public MovieListAdapter(Context context, String[] movies, String[] years,int img) {
+	public MovieListAdapter(Context context, String[] movies, String[] years) {
 		super(context, R.layout.movie_list_layout, movies);
 		mContext = context;
 		mMovieNames = movies;
 		mMovieYears = years;
-		image = img;
 	}
 
 	@Override
@@ -44,9 +44,9 @@ public class MovieListAdapter extends ArrayAdapter<String> {
 			holder = (ViewHolder) convertView.getTag();
 		}
 		
-		holder.thumbnailImageView.setImageResource(image);
+		holder.thumbnailImageView.setImageResource(Thumbnails.getMovieThumbnail(position));
 		holder.movieNameTextView.setText(mMovieNames[position]);
-		holder.movieYearTextView.setText(mMovieYears[position]);
+		holder.movieYearTextView.setText(YEAR + mMovieYears[position]);
 		
 		
 		return convertView;

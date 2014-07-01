@@ -1,4 +1,4 @@
-package com.asyn.jamesbond;
+package com.asyn.jamesbond.statics;
 
 public final class Movie {
 
