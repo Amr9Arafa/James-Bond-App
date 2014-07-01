@@ -28,7 +28,7 @@ public class SelectMovieActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.select_movie_activity);
 		
-		switcher = LIST;
+		switcher = GRID;
 
 		MovieListAdapter adapter = new MovieListAdapter(this, getResources()
 				.getStringArray(R.array.list_movies_name), getResources()
