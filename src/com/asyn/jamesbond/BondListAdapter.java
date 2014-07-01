@@ -1,5 +1,7 @@
 package com.asyn.jamesbond;
 
+import com.asyn.jamesbond.statics.Actors;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -40,7 +42,7 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 			holder = (HeadHolder) convertView.getTag();
 		}
 
-		holder.bondPhoto.setImageResource(R.drawable.a_view_to_a_kill);
+		holder.bondPhoto.setImageResource(Actors.Photo.getActorPhoto(groupPosition));
 		holder.bondName.setText(headTitle);
 		return convertView;
 	}

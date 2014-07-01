@@ -15,10 +15,19 @@
         android:background="@android:color/white"
         android:padding="10dp" >
 
+        <ImageView
+            android:id="@+id/actorPhoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/a_view_to_a_kill" />
+
         <TextView
             android:id="@+id/bondDetails"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/actorPhoto"
+            android:text="spin the wheel of fortune or learn to navigate " />
     </RelativeLayout>
 
 </LinearLayout>

@@ -12,11 +12,12 @@ public class BondActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.bond_activity);
-		
+
 		bondsList = (ExpandableListView) findViewById(R.id.bondsListView);
 
 		BondListAdapter adapter = new BondListAdapter(this, getResources()
-				.getStringArray(R.array.list_of_bond_actors), getResources().getStringArray(R.array.bonds_details));
+				.getStringArray(R.array.list_of_bond_actors), getResources()
+				.getStringArray(R.array.bonds_details));
 		bondsList.setAdapter(adapter);
 	}
 }
