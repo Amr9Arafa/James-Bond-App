@@ -16,8 +16,10 @@
         android:id="@+id/gridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
         android:horizontalSpacing="5dp"
-        android:numColumns="3"
+        android:numColumns="2"
         android:verticalSpacing="5dp"
         android:visibility="invisible" />
 
