@@ -7,18 +7,13 @@
 
         <ImageView
             android:id="@+id/bondPhoto"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
+            style="@style/ExpandableListCustomHeadImageViewStyle"
             android:contentDescription="@string/bond_photo_description"
             android:src="@drawable/skyfall" />
 
         <TextView
             android:id="@+id/bondName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            style="@style/ExpandableListCustomHeadTextViewStyle"
             android:layout_toRightOf="@id/bondPhoto" />
     </RelativeLayout>
 

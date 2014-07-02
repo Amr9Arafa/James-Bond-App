@@ -104,5 +104,19 @@
         <item name="android:layout_marginTop">@dimen/expandable_list_inner_container_vertical_margin</item>
         <item name="android:layout_marginBottom">@dimen/expandable_list_inner_container_vertical_margin</item>
     </style>
+    
+    <style name="ExpandableListCustomHeadImageViewStyle">
+        <item name="android:layout_width">@dimen/expandable_list_head_image_view_dimens</item>
+        <item name="android:layout_height">@dimen/expandable_list_head_image_view_dimens</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    
+    <style name="ExpandableListCustomHeadTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/expandable_list_custom_head_text_view_left_margin</item>
+    </style>
+    
 
 </resources>
