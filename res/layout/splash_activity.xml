@@ -4,14 +4,13 @@
     android:layout_height="match_parent"
     android:background="@android:color/white" >
 
-    <ImageButton
+    <ImageView
         android:id="@+id/animationImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
-        android:contentDescription="@string/splash_animation_description"
-        android:visibility="invisible" />
+        android:contentDescription="@string/splash_animation_description"/>
 
     <ImageView
         android:id="@+id/logoImageView"
