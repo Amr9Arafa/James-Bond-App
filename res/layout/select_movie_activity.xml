@@ -6,22 +6,12 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clipToPadding="true"
-        android:paddingBottom="0dp"
-        android:visibility="visible"
-        android:scrollbars="none" />
+        style="@style/ListViewStyle"
+        android:visibility="visible"/>
 
     <GridView
         android:id="@+id/gridView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="4dp"
-        android:horizontalSpacing="5dp"
-        android:numColumns="3"
-        android:verticalSpacing="5dp"
-        android:visibility="invisible"
-        android:scrollbars="none" />
+        style="@style/GridViewStyle"
+        android:visibility="invisible" />
 
 </RelativeLayout>

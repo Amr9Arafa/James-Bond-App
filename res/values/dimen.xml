@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="grid_layout_margin">4dp</dimen>
+    <dimen name="grid_horizontal_spacing">5dp</dimen>
+    <dimen name="grid_vertical_spacing">5dp</dimen>
+    
+    <dimen name="custom_list_layout_horizontal_margin">5dp</dimen>
+    <dimen name="custom_list_layout_vertical_margin">1dp</dimen>
+    <dimen name="custom_list_layout_padding">10dp</dimen>
+    <dimen name="custom_list_layout_thumnail_dimens">75dp</dimen>
+    <dimen name="custom_list_layout_text_view_left_margin">10dp</dimen>
+    
+    <dimen name="custom_grid_layout_vertical_margin">2dp</dimen>
+    <dimen name="custom_grid_layout_horizontal_margin">1dp</dimen>
+    <dimen name="custom_grid_layout_padding">10dp</dimen>
+    <dimen name="custom_grid_layout_thumnail_dimens">75dp</dimen>
+    
+    <dimen name="expandable_list_inner_container_vertical_margin">0dp</dimen>
+    
+</resources>

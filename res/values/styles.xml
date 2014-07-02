@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -15,6 +15,94 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="SplashImageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="ComonListGridStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="ListViewStyle" parent="ComonListGridStyle">
+        <item name="android:clipToPadding">true</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="GridViewStyle" parent="ComonListGridStyle">
+        <item name="android:layout_margin">@dimen/grid_layout_margin</item>
+        <item name="android:horizontalSpacing">@dimen/grid_horizontal_spacing</item>
+        <item name="android:verticalSpacing">@dimen/grid_vertical_spacing</item>
+        <item name="android:numColumns">3</item>
+    </style>
+
+    <style name="CustomListLayoutOutterContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomListLayoutInnerContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/custom_list_layout_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/custom_list_layout_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/custom_list_layout_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/custom_list_layout_horizontal_margin</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:padding">@dimen/custom_list_layout_padding</item>
+    </style>
+
+    <style name="CustomListLayoutThumbnailStyle">
+        <item name="android:layout_width">@dimen/custom_list_layout_thumnail_dimens</item>
+        <item name="android:layout_height">@dimen/custom_list_layout_thumnail_dimens</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="CustomListLayoutTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/custom_list_layout_text_view_left_margin</item>
+    </style>
+
+    <style name="CustomGridLayoutOutterContainerStyle" parent="CustomListLayoutOutterContainerStyle">
+        <!-- Intentionally Left Blank -->
+    </style>
+
+    <style name="CustomGridLayoutInnerContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/custom_grid_layout_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/custom_grid_layout_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/custom_grid_layout_horizontal_margin</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:padding">@dimen/custom_grid_layout_padding</item>
+    </style>
+    
+    <style name="CustomGridLayoutThumbnailStyle">
+        <item name="android:layout_width">@dimen/custom_grid_layout_thumnail_dimens</item>
+        <item name="android:layout_height">@dimen/custom_grid_layout_thumnail_dimens</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    
+    <style name="CustomGridLayoutTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="ExpandableListCustomHeadOutterContainerStyle" parent="CustomListLayoutOutterContainerStyle">
+        <!-- Intentionally Left Blank -->
+    </style>
+    
+    <style name="ExpandableListCustomHeadInnerContainerStyle" parent="CustomListLayoutInnerContainerStyle">
+        <item name="android:layout_marginTop">@dimen/expandable_list_inner_container_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/expandable_list_inner_container_vertical_margin</item>
     </style>
 
 </resources>

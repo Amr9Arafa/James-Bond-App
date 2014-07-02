@@ -1,38 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@android:color/transparent" >
+    style="@style/CustomListLayoutOutterContainerStyle" >
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:background="@android:color/white"
-        android:padding="10dp" >
+        style="@style/CustomListLayoutInnerContainerStyle" >
 
         <ImageView
             android:id="@+id/thumbnailImageView"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:layout_alignParentLeft="true"
+            style="@style/CustomListLayoutThumbnailStyle"
             android:contentDescription="@string/list_view_photo_description" />
 
         <TextView
             android:id="@+id/thumbnailMovieName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            style="@style/CustomListLayoutTextViewStyle"
             android:layout_toRightOf="@id/thumbnailImageView" />
 
         <TextView
             android:id="@+id/thumbnailMovieYear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CustomListLayoutTextViewStyle"
             android:layout_below="@id/thumbnailMovieName"
-            android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/thumbnailImageView" />
     </RelativeLayout>
 
