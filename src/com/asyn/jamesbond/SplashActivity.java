@@ -5,8 +5,10 @@ import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.widget.ImageView;
 
+import com.asyn.jamesbond.data.Data;
 import com.asyn.jamesbond.media.RawPlayer;
 
 public class SplashActivity extends Activity {
@@ -27,7 +29,6 @@ public class SplashActivity extends Activity {
 		animationLayer.setBackgroundResource(R.drawable.splash_animation);
 		splashAnimation = (AnimationDrawable) animationLayer.getBackground();
 		mediaPlayer = new RawPlayer(this, INTRO_MEDIA);
-
 	}
 
 	@Override
