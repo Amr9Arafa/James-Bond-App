@@ -2,54 +2,54 @@ package com.asyn.jamesbond.data;
 
 import com.asyn.jamesbond.R;
 
-public final class Data {
+public class Data {
 
 	/**
 	 * FOR ACTORS YOU NEED TO SET: ACTOR NAME, PHOTO, BIRTHDATE, LIST OF MOVIES,
 	 * BRIEF
 	 */
 
-	public static ActorProfile seanConnery;
-	public static ActorProfile georgeLazenby;
-	public static ActorProfile rogerMoore;
-	public static ActorProfile timothyDalton;
-	public static ActorProfile pierceBrosnan;
-	public static ActorProfile danielCraig;
+	public 	ActorProfile seanConnery;
+	public  ActorProfile georgeLazenby;
+	public  ActorProfile rogerMoore;
+	public  ActorProfile timothyDalton;
+	public  ActorProfile pierceBrosnan;
+	public  ActorProfile danielCraig;
 
 	/**
 	 * FOR MOVIES YOU NEED TO SET MOVIE NAME, POSTER, BOND ACTOR, PRODUCTION
 	 * YEAR
 	 */
 
-	public static MovieInfo drNo;
-	public static MovieInfo fromRussiaWithLove;
-	public static MovieInfo goldfinger;
-	public static MovieInfo thunderball;
-	public static MovieInfo youOnlyLiveTwice;
+	public  MovieInfo drNo;
+	public  MovieInfo fromRussiaWithLove;
+	public  MovieInfo goldfinger;
+	public  MovieInfo thunderball;
+	public  MovieInfo youOnlyLiveTwice;
 
-	public static MovieInfo onHerMajestysSecretService;
+	public  MovieInfo onHerMajestysSecretService;
 
-	public static MovieInfo diamondsAreForever;
+	public  MovieInfo diamondsAreForever;
 
-	public static MovieInfo liveAndLetDie;
-	public static MovieInfo theManWithTheGoldenGun;
-	public static MovieInfo theSpyWhoLovedMe;
-	public static MovieInfo moonraker;
-	public static MovieInfo forYourEyesOnly;
-	public static MovieInfo octopussy;
-	public static MovieInfo aViewToAKill;
+	public  MovieInfo liveAndLetDie;
+	public  MovieInfo theManWithTheGoldenGun;
+	public  MovieInfo theSpyWhoLovedMe;
+	public  MovieInfo moonraker;
+	public  MovieInfo forYourEyesOnly;
+	public  MovieInfo octopussy;
+	public  MovieInfo aViewToAKill;
 
-	public static MovieInfo theLivingDaylights;
-	public static MovieInfo licenceToKill;
+	public  MovieInfo theLivingDaylights;
+	public  MovieInfo licenceToKill;
 
-	public static MovieInfo goldenEye;
-	public static MovieInfo tomorrowNeverDies;
-	public static MovieInfo theWorldIsNotEnough;
-	public static MovieInfo dieAnotherDay;
+	public  MovieInfo goldenEye;
+	public  MovieInfo tomorrowNeverDies;
+	public  MovieInfo theWorldIsNotEnough;
+	public  MovieInfo dieAnotherDay;
 
-	public static MovieInfo casinoRoyale;
-	public static MovieInfo quantumOfSolace;
-	public static MovieInfo skyfall;
+	public  MovieInfo casinoRoyale;
+	public  MovieInfo quantumOfSolace;
+	public  MovieInfo skyfall;
 
 	public Data() {
 		/**
@@ -151,12 +151,14 @@ public final class Data {
 				skyfall);
 	}
 
-	public static ActorProfile[] getActorData() {
+	public ActorProfile[] getActorData() {
+
 		return new ActorProfile[] { seanConnery, georgeLazenby, rogerMoore,
 				timothyDalton, pierceBrosnan, danielCraig };
 	}
 
-	public static MovieInfo[] getMovieData() {
+	public MovieInfo[] getMovieData() {
+
 		return new MovieInfo[] { drNo, fromRussiaWithLove, goldfinger,
 				thunderball, youOnlyLiveTwice, onHerMajestysSecretService,
 				diamondsAreForever, liveAndLetDie, theManWithTheGoldenGun,

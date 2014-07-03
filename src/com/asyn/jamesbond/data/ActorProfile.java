@@ -8,7 +8,6 @@ public class ActorProfile {
 
 	private String mActorName;
 	private int mActorPhoto;
-	private int mTotalMovies;
 	private String birthdate;
 	private List<MovieInfo> mMovies;
 	private String mBrief;
@@ -16,7 +15,6 @@ public class ActorProfile {
 	public ActorProfile(String name, int photo) {
 		mActorName = name;
 		mActorPhoto = photo;
-		mTotalMovies = 0;
 	}
 	
 	public String getName() {
@@ -30,7 +28,6 @@ public class ActorProfile {
 	public void addMovie(MovieInfo... movies) {
 		for (MovieInfo movie : movies) {
 			mMovies.add(movie);
-			mTotalMovies++;
 		}
 	}
 	
@@ -39,7 +36,7 @@ public class ActorProfile {
 	}
 	
 	public int getTotalMovieRecords() {
-		return mTotalMovies;
+		return mMovies.size();
 	}
 
 	public void setBirthdate(int day, String month, int year) {

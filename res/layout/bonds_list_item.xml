@@ -27,7 +27,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/actorPhoto"
-            android:text="spin the wheel of fortune or learn to navigate " />
+            android:text="Name:" />
+        
+        <TextView android:id="@+id/actorBrief"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/actorPhoto"
+            android:layout_marginTop="10dp"
+            android:text=""/>
+        
     </RelativeLayout>
 
 </LinearLayout>

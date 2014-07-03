@@ -9,20 +9,26 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.asyn.jamesbond.R;
+import com.asyn.jamesbond.data.Data;
 import com.asyn.jamesbond.statics.Actors;
 
 public class BondListAdapter extends BaseExpandableListAdapter {
 
 	private static final int NUMBER_OF_CHILDS = 1;
 
+	private static final String NAME = "Name: ";
+
 	protected Context mContext;
 	protected String[] mBondsNames;
 	protected String[] mBondsDetails;
+	
+	private Data data;
 
 	public BondListAdapter(Context context, String[] names, String[] details) {
 		mContext = context;
 		mBondsNames = names;
 		mBondsDetails = details;
+		data = new Data(); 
 	}
 
 	@Override
@@ -49,6 +55,9 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 		return convertView;
 	}
 
+	/**
+	 * Change the items view
+	 */
 	@Override
 	public View getChildView(int groupPosition, int childPosition,
 			boolean isLastChild, View convertView, ViewGroup parent) {
@@ -63,14 +72,16 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 					.findViewById(R.id.actorPhoto);
 			holder.actorName = (TextView) convertView
 					.findViewById(R.id.bondDetails);
+			holder.actorBrief = (TextView) convertView
+					.findViewById(R.id.actorBrief);
 			convertView.setTag(holder);
 		} else {
 			holder = (ItemHolder) convertView.getTag();
 		}
 
-		holder.actorPhoto.setImageResource(Actors.Photo.getActorPhoto(groupPosition));
+		holder.actorPhoto.setImageResource(Actors.Photo
+				.getActorPhoto(groupPosition));
 		holder.actorName.setText(childString);
-
 		return convertView;
 	}
 
@@ -117,6 +128,7 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 	private static class ItemHolder {
 		ImageView actorPhoto;
 		TextView actorName;
+		TextView actorBrief;
 	}
 
 	private static class HeadHolder {
