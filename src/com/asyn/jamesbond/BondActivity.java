@@ -21,5 +21,6 @@ public class BondActivity extends Activity {
 				.getStringArray(R.array.list_of_bond_actors), getResources()
 				.getStringArray(R.array.bonds_details));
 		bondsList.setAdapter(adapter);
+		
 	}
 }

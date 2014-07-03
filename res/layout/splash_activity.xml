@@ -7,13 +7,14 @@
     <ImageView
         android:id="@+id/animationImageView"
         style="@style/SplashImageViewStyle"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/splash_animation_description"/>
 
     <ImageView
         android:id="@+id/logoImageView"
         style="@style/SplashImageViewStyle"
         android:contentDescription="@string/splash_logo_description"
-        android:src="@drawable/james_bond_logo" />
+        android:src="@drawable/james_bond_logo" android:visibility="invisible" />
 
 </RelativeLayout>
