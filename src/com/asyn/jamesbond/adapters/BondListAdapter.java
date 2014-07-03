@@ -12,7 +12,7 @@ import com.asyn.jamesbond.R;
 import com.asyn.jamesbond.statics.Actors;
 
 public class BondListAdapter extends BaseExpandableListAdapter {
-	
+
 	private static final int NUMBER_OF_CHILDS = 1;
 
 	protected Context mContext;
@@ -43,7 +43,8 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 			holder = (HeadHolder) convertView.getTag();
 		}
 
-		holder.bondPhoto.setImageResource(Actors.Photo.getActorPhoto(groupPosition));
+		holder.bondPhoto.setImageResource(Actors.Photo
+				.getActorPhoto(groupPosition));
 		holder.bondName.setText(headTitle);
 		return convertView;
 	}
@@ -51,13 +52,15 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 	@Override
 	public View getChildView(int groupPosition, int childPosition,
 			boolean isLastChild, View convertView, ViewGroup parent) {
-		
+
 		String childString = (String) getChild(groupPosition, childPosition);
 		ItemHolder holder;
 		if (convertView == null) {
 			convertView = LayoutInflater.from(mContext).inflate(
 					R.layout.bonds_list_item, null);
 			holder = new ItemHolder();
+			holder.actorPhoto = (ImageView) convertView
+					.findViewById(R.id.actorPhoto);
 			holder.actorName = (TextView) convertView
 					.findViewById(R.id.bondDetails);
 			convertView.setTag(holder);
@@ -65,6 +68,7 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 			holder = (ItemHolder) convertView.getTag();
 		}
 
+		holder.actorPhoto.setImageResource(Actors.Photo.getActorPhoto(groupPosition));
 		holder.actorName.setText(childString);
 
 		return convertView;
@@ -111,6 +115,7 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 	}
 
 	private static class ItemHolder {
+		ImageView actorPhoto;
 		TextView actorName;
 	}
 

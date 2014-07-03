@@ -51,12 +51,7 @@ public final class Data {
 	public static MovieInfo quantumOfSolace;
 	public static MovieInfo skyfall;
 
-	/**
-	 * INITIALIZING
-	 */
-
-	static {
-
+	public Data() {
 		/**
 		 * FOR ACTORS YOU NEED TO SET: ACTOR NAME, PHOTO, BIRTHDATE, LIST OF
 		 * MOVIES, BRIEF
@@ -130,10 +125,44 @@ public final class Data {
 				theManWithTheGoldenGun, theSpyWhoLovedMe, moonraker,
 				forYourEyesOnly, octopussy, aViewToAKill);
 
-		theLivingDaylights = new MovieInfo("The Living Daylights", R.drawable.the_living_daylights, 1987);
-		licenceToKill = new MovieInfo("Licence to Kill", R.drawable.licence_to_kill, 1989);
-		DataHelper.setActorToMovies(timothyDalton, theLivingDaylights, licenceToKill);
-		
-		
+		theLivingDaylights = new MovieInfo("The Living Daylights",
+				R.drawable.the_living_daylights, 1987);
+		licenceToKill = new MovieInfo("Licence to Kill",
+				R.drawable.licence_to_kill, 1989);
+		DataHelper.setActorToMovies(timothyDalton, theLivingDaylights,
+				licenceToKill);
+
+		goldenEye = new MovieInfo("GoldeEye", R.drawable.goldeneye, 1995);
+		tomorrowNeverDies = new MovieInfo("Tomorrow Never Dies",
+				R.drawable.tomorrow_never_twice, 1997);
+		theWorldIsNotEnough = new MovieInfo("The World Is Not Enough",
+				R.drawable.the_world_is_not_enough, 1999);
+		dieAnotherDay = new MovieInfo("Die Another Day",
+				R.drawable.die_another_day, 2002);
+		DataHelper.setActorToMovies(pierceBrosnan, goldenEye,
+				tomorrowNeverDies, theWorldIsNotEnough, dieAnotherDay);
+
+		casinoRoyale = new MovieInfo("Casino Royale", R.drawable.casino_royale,
+				2006);
+		quantumOfSolace = new MovieInfo("Quantum of Solace",
+				R.drawable.quantum_of_solace, 2008);
+		skyfall = new MovieInfo("Skyfall", R.drawable.skyfall, 2012);
+		DataHelper.setActorToMovies(danielCraig, casinoRoyale, quantumOfSolace,
+				skyfall);
+	}
+
+	public static ActorProfile[] getActorData() {
+		return new ActorProfile[] { seanConnery, georgeLazenby, rogerMoore,
+				timothyDalton, pierceBrosnan, danielCraig };
+	}
+
+	public static MovieInfo[] getMovieData() {
+		return new MovieInfo[] { drNo, fromRussiaWithLove, goldfinger,
+				thunderball, youOnlyLiveTwice, onHerMajestysSecretService,
+				diamondsAreForever, liveAndLetDie, theManWithTheGoldenGun,
+				theSpyWhoLovedMe, moonraker, forYourEyesOnly, octopussy,
+				aViewToAKill, theLivingDaylights, licenceToKill, goldenEye,
+				tomorrowNeverDies, theWorldIsNotEnough, dieAnotherDay,
+				casinoRoyale, quantumOfSolace, skyfall };
 	}
 }
