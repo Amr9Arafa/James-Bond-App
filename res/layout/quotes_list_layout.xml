@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CustomListLayoutOutterContainerStyle" >
+
+    <RelativeLayout style="@style/CustomListLayoutInnerContainerStyle" >
+
+        <ImageView
+            android:id="@+id/openQuotes"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/open_quotes_image_view"
+            android:src="@drawable/quotes_open" />
+
+        <TextView
+            android:id="@+id/quotesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@+id/closeQuotes"
+            android:layout_toRightOf="@id/openQuotes" />
+
+        <ImageView
+            android:id="@+id/closeQuotes"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/quotesTextView"
+            android:contentDescription="@string/close_quotes_image_view"
+            android:src="@drawable/quotes_close" />
+    </RelativeLayout>
+
+</LinearLayout>

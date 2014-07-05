@@ -114,5 +114,7 @@
                His early on-screen appearances were in the films Elizabeth, The Power of One and 
                A Kid in King Arthur\'s Court, and in Sharpe\'s Eagle and Zorro on television.</item>
     </string-array>
+        <string name="open_quotes_image_view">Open Quotes Image View</string>
+        <string name="close_quotes_image_view">Close Quotes Image View</string>
 
 </resources>

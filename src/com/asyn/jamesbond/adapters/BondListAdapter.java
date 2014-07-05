@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.asyn.jamesbond.R;
-import com.asyn.jamesbond.data.Data;
 import com.asyn.jamesbond.statics.Actors;
 
 public class BondListAdapter extends BaseExpandableListAdapter {
@@ -21,14 +20,11 @@ public class BondListAdapter extends BaseExpandableListAdapter {
 	protected Context mContext;
 	protected String[] mBondsNames;
 	protected String[] mBondsDetails;
-	
-	private Data data;
 
 	public BondListAdapter(Context context, String[] names, String[] details) {
 		mContext = context;
 		mBondsNames = names;
 		mBondsDetails = details;
-		data = new Data(); 
 	}
 
 	@Override
