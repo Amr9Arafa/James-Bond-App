@@ -12,6 +12,8 @@
     <string name="movie_posters_button_label">Posters</string>
     <string name="quotes_button_label">Quotes</string>
     <string name="grid_list_menu_title">Grid</string>
+    <string name="open_quotes_image_view">Open Quotes Image View</string>
+    <string name="close_quotes_image_view">Close Quotes Image View</string>
 
     <string-array name="list_movies_name">
         <item>Dr. No</item>
@@ -114,7 +116,64 @@
                His early on-screen appearances were in the films Elizabeth, The Power of One and 
                A Kid in King Arthur\'s Court, and in Sharpe\'s Eagle and Zorro on television.</item>
     </string-array>
-        <string name="open_quotes_image_view">Open Quotes Image View</string>
-        <string name="close_quotes_image_view">Close Quotes Image View</string>
+
+    <!-- MOVIE QUOTES -->
+    <string-array name="dr_no_quotes">
+        <item>Bond: I promise I won\'t steal your shells.
+            Honey: I promise you you won\'t, either. Stay where you are!
+            Bond: I can assure you, my intentions are strictly honourable.</item>
+        <item>Bond: Those samples Strangways found were radioactive. Professor Dent told me
+            they were worthless iron ore. He\'s either a bad Professor...
+            Leiter: Or a bad liar.</item>
+        <item>Bond: Your name Quarrel?
+            Quarrel: Maybe.
+            Bond: I am a friend of Commander Strangways.
+            Quarrel: I like people who are friends of people.</item>
+        <item>Dr. No: Unfortunately I misjudged you. You are just a stupid policeman whose luck has run out.</item>
+        <item>Leiter: Hey Quarrel, if you see a dragon, you get in first and breath on him. With all that rum in you, he\'ll die happy.</item>
+        <item>Bond: Looks like you\'re out to get me.
+            Sylvia: It\'s an idea at that.</item>
+        <item>Dr. No: SPECTRE. Special Executive for Counterintelligence, Revenge and Extortion. The four great cornerstones of power, headed by the greatest brains in the world.
+            Bond: Correction, criminal brains.
+            Dr. No: The successful criminal brain is always superior. It has to be.</item>
+        <item>Bond: What gives?\n
+            Moneypenny: Me, given an ounce of encouragement. You never take me to dinner looking like this, James. You never take me to dinner.Period.
+            \nBond: I would, but M would have me court martialed for misuse of government property.
+            \nMoneypenny: Flattery will get you nowhere. But don\'t stop trying.</item>
+        <item>Bond: I have to leave immediately.
+            Sylvia: [Kissing Bond] When did you say you had to leave.
+            Bond: Immediately.. well, almost immediately.</item>
+        <item>Bond: I have to leave immediately.
+            Sylvia: [Kissing Bond] When did you say you had to leave.
+            Bond: Immediately.. well, almost immediately.</item>
+        <item>Dr. No: [over the PA] Go to the table. You see what is in the cage? Pick it up. [The black widow spider] Tonight!</item>
+        <item>Bond:  Who are you working for?
+Dent: I might as well tell you, as you wont live long enough to use that information... [He tries to shoot Bond but his gun is empty]
+Bond: That\'s a Smith and Western and you\'ve had your six...</item>
+        <item>Miss Taro: What should I say to a suggestion from a strange gentleman.
+Bond: You should say yes.
+Miss Taro: I should say maybe.</item>
+        <item>M: Yes, I thought so, this damn Beretta. I\'ve told you about this before. You tell him...
+Armourer: Nice and light, in a ladies handbag. No stopping power.</item>
+        <item>Strangways assistant: W6N calling G7W, how do you hear me? Over.
+Radio operator: G7W London, receiving you, over.
+Strangways assistant: Stand by to transmit.</item>
+        <item>Bond: [Of Taro] Book her superintendent, and, ugh, be careful of her nail varnish.</item>
+        <item>Dr. No: That\'s a Dom Pérignon \'55. It would be a pity to break it.
+Bond: I prefer the \'53 myself.</item>
+        <item>Sister Rose: Come in... you poor dears. We simply didn\'t know when to expect you.
+    First it was teatime yesterday, and then dinner. It was only half an hour ago we knew you were on your way.</item>
+        <item>Miss Taro: I\'ll just go and put some clothes on.
+	Bond: Don\'t go to any trouble on my account.</item>
+        <item>Bond: [To the taxi driver, with the Walther in his back] Both hands on the wheel, Mr. Jones, I\'m a very nervous passenger.</item>
+        <item>Bond: I admire your courage Miss..?
+Silvia: Trench. Silver Trench. I admire your luck Mr?
+Bond: Bond. James Bond.</item>
+        <item>Leiter: Where did you get that suit?
+Bond: My tailor, in Saville Row.
+Leiter: Mine\'s from Washington, Felix Leiter: Central Intelligence Agency.</item>
+        <item>Quarrel: If that ain\'t a dragon, what is it?
+Bond: A dragon that runs on diesel. Forget the spooks, Quarrel. You take the driver. I\'ll take the headlights and tyres.</item>
+    </string-array>
 
 </resources>

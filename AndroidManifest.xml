@@ -35,7 +35,7 @@
         <activity
             android:name=".QuotesActivity"
             android:label="@string/title_activity_quotes"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".SelectMovieActivity" >
         </activity>
         <activity
             android:name=".GunbarrellActivity"

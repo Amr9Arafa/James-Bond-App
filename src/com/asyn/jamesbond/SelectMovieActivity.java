@@ -36,7 +36,8 @@ public class SelectMovieActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.select_movie_activity);
-
+		type = getIntent().getIntExtra(Keys.TYPE, -1);
+		
 		currentView = LIST; // current view is a list
 		listView = (ListView) findViewById(R.id.listView);
 		gridView = (GridView) findViewById(R.id.gridView);
@@ -66,10 +67,12 @@ public class SelectMovieActivity extends Activity {
 			switch (type) {
 			case Keys.QUOTES:
 				intent = new Intent(SelectMovieActivity.this, QuotesActivity.class);
+				intent.putExtra(Keys.MOVIE, position);
 				startActivity(intent);
 				break;
 			case Keys.GUNBARELLS:
 				intent = new Intent(SelectMovieActivity.this, GunbarrellActivity.class);
+				intent.putExtra(Keys.MOVIE, position);
 				startActivity(intent);
 				break;
 			default:
@@ -109,9 +112,14 @@ public class SelectMovieActivity extends Activity {
 	}
 
 	@Override
+	protected void onStart() {
+		super.onStart();
+	}
+	
+	@Override
 	protected void onResume() {
 		super.onResume();
-		type = getIntent().getIntExtra(Keys.TYPE, -1);
+		
 	}
 
 }
