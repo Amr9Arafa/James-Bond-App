@@ -3,7 +3,6 @@ package com.asyn.jamesbond;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -112,15 +111,12 @@ public class SelectMovieActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 
-	@Override
-	protected void onStart() {
-		super.onStart();
-	}
 	
 	@Override
 	protected void onResume() {
 		super.onResume();
-		type = getIntent().getIntExtra(Keys.TYPE, -1);
+		type = getIntent().getIntExtra(Keys.TYPE, -1); // TODO check why the type isn't updated
 	}
+
 
 }
