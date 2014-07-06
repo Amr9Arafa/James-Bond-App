@@ -29,13 +29,14 @@ public class QuotesActivity extends Activity {
 
 		switch (movie) {
 		case Movie.DR_NO:
-			setListForMovie(getResources().getStringArray(R.array.dr_no_quotes));
+			setListForMovie(array(R.array.dr_no_quotes));
 			break;
 		case Movie.FROM_RUSSIA_WITH_LOVE:
-			setListForMovie(getResources().getStringArray(
-					R.array.list_movies_years));
+			setListForMovie(array(R.array.from_russia_with_love));
 			break;
-
+		case Movie.GOLDFINGER:
+			setListForMovie(array(R.array.goldfinger));
+			break;
 		default:
 			break;
 		}
@@ -44,5 +45,9 @@ public class QuotesActivity extends Activity {
 	private void setListForMovie(String[] quotes) {
 		QuotesListAdapter adapter = new QuotesListAdapter(this, quotes);
 		quoteList.setAdapter(adapter);
+	}
+	
+	private String[] array(int name) {
+		return getResources().getStringArray(name);
 	}
 }

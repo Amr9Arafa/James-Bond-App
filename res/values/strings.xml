@@ -175,5 +175,44 @@ Leiter: Mine\'s from Washington, Felix Leiter: Central Intelligence Agency.</ite
         <item>Quarrel: If that ain\'t a dragon, what is it?
 Bond: A dragon that runs on diesel. Forget the spooks, Quarrel. You take the driver. I\'ll take the headlights and tyres.</item>
     </string-array>
+    <string-array name="from_russia_with_love">
+        <item>Klebb: Kronsteen\'s plan should be as succesful as his chess.
+Kronsteen: It will be. I\'ve anticipated every possible variation of countermove.
+Blofeld: Let his death be a particularly unpleasant and humiliating one.</item>
+        <item>Klebb: Corporal, I have selected you for a most important assignment. Its purpose is to give false information to the enemy. If you complete it successfully, you will be promoted. From now on, you will do anything he [Bond] says.
+Tatiana: And if I refuse?
+Klebb: Then you will not leave this room alive. Come, come, my dear. You\'re very fortunate to have been chosen for such a simple, delightful duty. A real labour of love, as we say.</item>
+        <item>Blofeld: Siamese Fighting Fish. Fascinating creatures. Brave, but on the whole, stupid. Yes, they\'re stupid... except for the occasional one such as we have here, who waits. Waits until the survivor is so exhausted that he cannot defend himself. And then, like SPECTRE, he strikes.
+Klebb: I find the parallel amusing.
+Blofeld: Our organization did not arrange for you to come over from the Russians just for amusement, Number Three.</item>
+        <item>Tatiana: You look surprised. I thought you expected me.</item>
+        <item>Kerim: [Tapping his nose] This is an old friend of mine. And it tells me something smells.</item>
+        <item>Tatiana: The mechanism is... Oh James, James... Will you make love to me all the time in England?
+Bond: Day and night. Go on about the mechanism.</item>
+        <item>Grant: I\'ve been keeping tabs on you. I\'ve been your guardian angel.</item>
+        <item>Kerim: Ah, the old game: give a wolf a taste and then leave him hungry. My friend, she\'s got you dangling.</item>
+    </string-array>
+    <string-array name="goldfinger">
+        <item>Bond: "You expect me to talk?"
+Goldfinger: "No, Mr Bond, I expect you to die!"</item>
+        <item>Pussy: "My name is Pussy Galore."
+Bond: "I must be dreaming!"</item>
+        <item>Bond: "Shocking! Positively shocking!"</item>
+        <item>Pussy: "You like a close shave, don\'t you?"</item>
+        <item>Bond: "I must have appealed to her maternal instincts."</item>
+    </string-array>
+    <string-array name="thunderball">
+        <item>Bond: My dear Colonel Derval, I don\'t think you should have opened that car door by yourself.</item>
+        <item>Bond: Keep in touch.
+			Pat: Any time, any place.
+			Bond: Another time, another place.</item>
+        <item>Blofeld: Please signal your acceptance of our terms by requiring Big Ben to strike seven times at six PM tomorrow.</item>
+        <item>Q: Try to be a little less than your usual frivolous self 007!</item>
+        <item>Bond: My dear girl, don\'t flatter yourself. What I did this evening was for King and country.
+            You don\'t think it gave me any pleasure do you?
+            Volpe: But of course, I forgot your ego, Mister Bond. James Bond, who only has to make love to a woman and
+             she starts to hear heavenly choirs singing. She repents, then immediately returns to the side of right and virtue.
+             But not this one. What a blow it must have been - you having a failure. Bond: Well, you can\'t win them all...</item>
+    </string-array>
 
 </resources>
