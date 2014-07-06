@@ -6,6 +6,9 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 
 import com.asyn.jamesbond.data.Data;
@@ -19,6 +22,9 @@ public class SplashActivity extends Activity {
 	protected ImageView animationLayer;
 	protected RawPlayer mediaPlayer;
 	private AnimationDrawable splashAnimation;
+	
+	private ImageView testRotate;
+	private RotateAnimation animation;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +35,20 @@ public class SplashActivity extends Activity {
 		animationLayer.setBackgroundResource(R.drawable.splash_animation);
 		splashAnimation = (AnimationDrawable) animationLayer.getBackground();
 		mediaPlayer = new RawPlayer(this, INTRO_MEDIA);
+		
+		testRotate = (ImageView) findViewById(R.id.logoImageView);
+		animation = new RotateAnimation(0f,350f,Animation.RELATIVE_TO_SELF,0.5f,Animation.RELATIVE_TO_SELF,0.5f);
+		animation.setInterpolator(new LinearInterpolator());
+		animation.setRepeatCount(Animation.INFINITE);
+		animation.setDuration(1000);
 	}
 
 	@Override
 	protected void onStart() {
 		super.onStart();
-
+		testRotate.startAnimation(animation);
 		mediaPlayer.startPlayableMedia();
-		splashAnimation.start();
+		//splashAnimation.start();
 
 		new Handler().postDelayed(new Runnable() {
 			@Override

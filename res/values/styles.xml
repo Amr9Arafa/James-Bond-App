@@ -118,5 +118,12 @@
         <item name="android:layout_marginLeft">@dimen/expandable_list_custom_head_text_view_left_margin</item>
     </style>
     
+    <style name="ButtonStyles">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
 
 </resources>

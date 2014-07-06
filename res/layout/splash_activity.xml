@@ -9,12 +9,18 @@
         style="@style/SplashImageViewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/splash_animation_description"/>
+        android:contentDescription="@string/splash_animation_description" android:visibility="invisible"/>
+    
+    <ImageView
+        android:id="@+id/logoaImageView"
+        style="@style/SplashImageViewStyle"
+        android:contentDescription="@string/splash_logo_description"
+        android:src="@drawable/animation_logo"/>
 
     <ImageView
         android:id="@+id/logoImageView"
         style="@style/SplashImageViewStyle"
         android:contentDescription="@string/splash_logo_description"
-        android:src="@drawable/james_bond_logo" android:visibility="invisible" />
+        android:src="@drawable/animation_wheel"/>
 
 </RelativeLayout>
